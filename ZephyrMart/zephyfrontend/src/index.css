@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=IBM+Plex+Mono:wght@500&family=Pacifico&family=Playball&family=Plus+Jakarta+Sans:wght@600&family=Poppins:wght@600&family=Quicksand&family=Satisfy&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color:white !important;
+}
+/*font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Pacifico', cursive;
+font-family: 'Playball', cursive;
+font-family: 'Plus Jakarta Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Satisfy', cursive;*/
+
+.navbar{
+  font-family: 'Poppins',sans-serif;
+  font-size:17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow:0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom:solid gray !important;
+  background-color: rgba(0,0,0,0.3) !important;  /* Set the transparency to 0.3 */
+  
+}
+.nav-link{
+  font-weight:300 !important;
+}
+.active{
+  border-bottom:1px solid black !important;
+}
+
+.navbar-brand{
+  letter-spacing: 3px !important;
+
+}
+.footer{
+  color:white;
+  padding:25px;
+  background:black;
+  background: -webkit-linear-gradient(to right,gray,black);
+  background:linear-gradient(to right,gray,black);
+}
+
+.footer a{
+  text-decoration: none;
+  color:white;
+  padding:12px;
+  
+}
+
+.footer a:hover{
+  color: #ffefba !important;
+  border-bottom:1px solid #ffefba;
+}
+
+
+
+

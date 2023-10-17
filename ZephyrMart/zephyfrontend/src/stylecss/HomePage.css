@@ -1,0 +1,35 @@
+.img-container{ 
+    position: relative;
+     text-align: center;
+     height:20rem;
+     
+     }
+.img-top-content
+    { position: absolute;
+         top:50%;
+          left: 50%;
+           transform:translate(-50%, -50%);
+           z-index: 1 }
+
+.title-name{
+    font-size: 50px !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    color:rgba(255,255,255 ,1);
+}
+span{
+    font-size: 20px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    
+    color: rgb(83, 77, 77);
+}
+
+.card-shadow:hover{
+    box-shadow: 2px 2px 7px rgba(255,255,255 ,1);
+}
+hr{
+    font-weight: bold;
+}

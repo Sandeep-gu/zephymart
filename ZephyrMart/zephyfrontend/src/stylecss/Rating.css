@@ -1,0 +1,16 @@
+.rating {
+    display: flex;
+  }
+  
+  .star {
+    cursor: pointer;
+    font-size: 24px;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  
+  .active {
+    color: gold;
+  }
+  
